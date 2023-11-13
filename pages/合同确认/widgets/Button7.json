@@ -1,0 +1,32 @@
+{
+    "boxShadow": "none",
+    "widgetName": "Button7",
+    "onClick": "{{showAlert('批量确认' + Table1.selectedRows.length + '条数据')}}",
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "topRow": 17,
+    "bottomRow": 21,
+    "parentRowSpace": 10,
+    "type": "BUTTON_WIDGET",
+    "parentColumnSpace": 19.8125,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
+    "leftColumn": 7,
+    "dynamicBindingPathList": [
+        {"key": "isVisible"},
+        {"key": "buttonColor"},
+        {"key": "borderRadius"}
+    ],
+    "text": "批量确认",
+    "isDisabled": false,
+    "labelTextSize": "0.875rem",
+    "rightColumn": 14,
+    "isDefaultClickDisabled": true,
+    "widgetId": "ccq6cyhg05",
+    "isVisible": "{{!!Table1.selectedRows.length}}",
+    "version": 1,
+    "recaptchaType": "V3",
+    "parentId": "0",
+    "isLoading": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "buttonVariant": "PRIMARY"
+}

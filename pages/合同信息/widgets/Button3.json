@@ -1,0 +1,31 @@
+{
+    "boxShadow": "none",
+    "widgetName": "Button3",
+    "onClick": "{{Contracts.run(() => ContractCount.run(), () => {})}}",
+    "dynamicPropertyPathList": [],
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "topRow": 8,
+    "bottomRow": 12,
+    "parentRowSpace": 10,
+    "type": "BUTTON_WIDGET",
+    "parentColumnSpace": 19.8125,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
+    "leftColumn": 52,
+    "dynamicBindingPathList": [
+        {"key": "buttonColor"},
+        {"key": "borderRadius"}
+    ],
+    "text": "搜索",
+    "isDisabled": false,
+    "labelTextSize": "0.875rem",
+    "rightColumn": 57,
+    "isDefaultClickDisabled": true,
+    "widgetId": "gpdubr2u89",
+    "isVisible": true,
+    "version": 1,
+    "recaptchaType": "V3",
+    "parentId": "0",
+    "isLoading": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "buttonVariant": "PRIMARY"
+}

@@ -1,0 +1,4 @@
+{{ _.assign({}, {
+	startTime: createForm.formData.range[0],
+	endTime: createForm.formData.range[1],
+}, createForm.formData) }}

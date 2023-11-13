@@ -1,0 +1,109 @@
+{
+    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "widgetName": "Chart7Copy1",
+    "allowScroll": false,
+    "displayName": "图表",
+    "iconSVG": "/static/media/icon.6adbe31ed817fc4bfd66f9f0a6fc105c.svg",
+    "searchTags": [
+        "graph",
+        "visuals",
+        "visualisations"
+    ],
+    "topRow": 83,
+    "bottomRow": 116,
+    "parentRowSpace": 10,
+    "type": "CHART_WIDGET",
+    "hideCard": false,
+    "chartData": {"zefjx89m8w": {
+        "data": [
+            {
+                "x": "产品1",
+                "y": 20000
+            },
+            {
+                "x": "产品2",
+                "y": 22000
+            },
+            {
+                "x": "产品3",
+                "y": 32000
+            }
+        ],
+        "seriesName": "销售额"
+    }},
+    "animateLoading": true,
+    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "parentColumnSpace": 14.21875,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 43,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "boxShadow"},
+        {"key": "accentColor"},
+        {"key": "fontFamily"}
+    ],
+    "customFusionChartConfig": {
+        "type": "column2d",
+        "dataSource": {
+            "data": [
+                {
+                    "label": "产品1",
+                    "value": 20000
+                },
+                {
+                    "label": "产品2",
+                    "value": 22000
+                },
+                {
+                    "label": "产品3",
+                    "value": 32000
+                }
+            ],
+            "chart": {
+                "legendIconSides": "4",
+                "canvasPadding": "0",
+                "captionAlignment": "center",
+                "yAxisNameFontSize": "14",
+                "caption": "销售报告",
+                "labelFontColor": "#716E6E",
+                "chartLeftMargin": "20",
+                "captionFontSize": "24",
+                "chartTopMargin": "10",
+                "theme": "fusion",
+                "legendIconAlpha": "100",
+                "chartBottomMargin": "10",
+                "labelFontSize": "12",
+                "xAxisNameFontColor": "#716E6E",
+                "yAxisNameFontColor": "#716E6E",
+                "captionFontColor": "#231F20",
+                "yAxisValueFontColor": "#716E6E",
+                "captionPadding": "20",
+                "yAxisName": "收入（元）",
+                "legendIconBgAlpha": "100",
+                "xAxisName": "产品线",
+                "alignCaptionWithCanvas": 1,
+                "chartRightMargin": "40",
+                "legendPosition": "top",
+                "xAxisNameFontSize": "14",
+                "yAxisValueFontSize": "12"
+            }
+        }
+    },
+    "key": "bzomr3g8tq",
+    "showDataPointLabel": false,
+    "isDeprecated": false,
+    "rightColumn": 63,
+    "widgetId": "n1yx5hi2of",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "0",
+    "labelOrientation": "auto",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "yAxisName": "收入（元）",
+    "chartName": "销售报告",
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "xAxisName": "产品线",
+    "chartType": "PIE_CHART"
+}

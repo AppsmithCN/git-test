@@ -1,0 +1,4 @@
+{
+	"confirm_state": "3",
+	"confirm_note": {{ConfirmInput.text}}
+}

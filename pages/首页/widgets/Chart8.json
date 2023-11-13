@@ -1,0 +1,63 @@
+{
+    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "widgetName": "Chart8",
+    "allowScroll": false,
+    "displayName": "图表",
+    "iconSVG": "/static/media/icon.6adbe31ed817fc4bfd66f9f0a6fc105c.svg",
+    "searchTags": [
+        "graph",
+        "visuals",
+        "visualisations"
+    ],
+    "topRow": 7,
+    "bottomRow": 51,
+    "parentRowSpace": 10,
+    "type": "CHART_WIDGET",
+    "hideCard": false,
+    "chartData": {"zefjx89m8w": {
+        "data": [
+            {
+                "x": "产品1",
+                "y": 20000
+            },
+            {
+                "x": "产品2",
+                "y": 22000
+            },
+            {
+                "x": "产品3",
+                "y": 32000
+            }
+        ],
+        "seriesName": "销售额"
+    }},
+    "animateLoading": true,
+    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "parentColumnSpace": 14.21875,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 1,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "boxShadow"},
+        {"key": "accentColor"},
+        {"key": "fontFamily"}
+    ],
+    "customFusionChartConfig": "{\n  \"type\": \"mscombidy2d\",\n  \"dataSource\": {\n    \"chart\": {\n        \"caption\": \"收入利润表\",\n        \"subCaption\": \"2021年度\",\n        \"xAxisname\": \"月份\",\n        \"pYAxisName\": \"总数 (元)\",\n        \"sYAxisName\": \"利润 %\",\n        \"numberPrefix\": \"￥\",\n        \"sNumberSuffix\": \"%\",\n        \"sYAxisMaxValue\": \"50\",\n        \"divlineAlpha\": \"100\",\n        \"divlineColor\": \"#999999\",\n        \"divlineThickness\": \"1\",\n        \"divLineIsDashed\": \"1\",\n        \"divLineDashLen\": \"1\",\n        \"divLineGapLen\": \"1\",\n        \"usePlotGradientColor\": \"0\",\n        \"anchorRadius\": \"3\",\n        \"theme\": \"fusion\"\n    },\n    \"categories\": [\n        {\n            \"category\": [\n                {\n                    \"label\": \"1月\"\n                },\n                {\n                    \"label\": \"2月\"\n                },\n                {\n                    \"label\": \"3月\"\n                },\n                {\n                    \"label\": \"4月\"\n                },\n                {\n                    \"label\": \"5月\"\n                },\n                {\n                    \"label\": \"6月\"\n                },\n                {\n                    \"label\": \"7月\"\n                },\n                {\n                    \"label\": \"8月\"\n                },\n                {\n                    \"label\": \"9月\"\n                },\n                {\n                    \"label\": \"10月\"\n                },\n                {\n                    \"label\": \"11月\"\n                },\n                {\n                    \"label\": \"12月\"\n                }\n            ]\n        }\n    ],\n    \"dataset\": [\n        {\n            \"seriesName\": \"收入\",\n            \"data\": [\n                {\n                    \"value\": \"16000\"\n                },\n                {\n                    \"value\": \"20000\"\n                },\n                {\n                    \"value\": \"18000\"\n                },\n                {\n                    \"value\": \"19000\"\n                },\n                {\n                    \"value\": \"15000\"\n                },\n                {\n                    \"value\": \"21000\"\n                },\n                {\n                    \"value\": \"16000\"\n                },\n                {\n                    \"value\": \"20000\"\n                },\n                {\n                    \"value\": \"17000\"\n                },\n                {\n                    \"value\": \"22000\"\n                },\n                {\n                    \"value\": \"19000\"\n                },\n                {\n                    \"value\": \"23000\"\n                }\n            ]\n        },\n        {\n            \"seriesName\": \"利润\",\n            \"renderAs\": \"area\",\n            \"showValues\": \"0\",\n            \"data\": [\n                {\n                    \"value\": \"4000\"\n                },\n                {\n                    \"value\": \"5000\"\n                },\n                {\n                    \"value\": \"3000\"\n                },\n                {\n                    \"value\": \"4000\"\n                },\n                {\n                    \"value\": \"1000\"\n                },\n                {\n                    \"value\": \"7000\"\n                },\n                {\n                    \"value\": \"1000\"\n                },\n                {\n                    \"value\": \"4000\"\n                },\n                {\n                    \"value\": \"1000\"\n                },\n                {\n                    \"value\": \"8000\"\n                },\n                {\n                    \"value\": \"2000\"\n                },\n                {\n                    \"value\": \"7000\"\n                }\n            ]\n        },\n        {\n            \"seriesName\": \"利润 %\",\n            \"parentYAxis\": \"S\",\n            \"renderAs\": \"line\",\n            \"showValues\": \"0\",\n            \"data\": [\n                {\n                    \"value\": \"25\"\n                },\n                {\n                    \"value\": \"25\"\n                },\n                {\n                    \"value\": \"16.66\"\n                },\n                {\n                    \"value\": \"21.05\"\n                },\n                {\n                    \"value\": \"6.66\"\n                },\n                {\n                    \"value\": \"33.33\"\n                },\n                {\n                    \"value\": \"6.25\"\n                },\n                {\n                    \"value\": \"25\"\n                },\n                {\n                    \"value\": \"5.88\"\n                },\n                {\n                    \"value\": \"36.36\"\n                },\n                {\n                    \"value\": \"10.52\"\n                },\n                {\n                    \"value\": \"30.43\"\n                }\n            ]\n        }\n    ]\n  }\n}",
+    "key": "bzomr3g8tq",
+    "showDataPointLabel": false,
+    "isDeprecated": false,
+    "rightColumn": 63,
+    "widgetId": "xyhckjir37",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "0",
+    "labelOrientation": "auto",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "yAxisName": "收入（元）",
+    "chartName": "销售报告",
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "xAxisName": "产品线",
+    "chartType": "CUSTOM_FUSION_CHART"
+}

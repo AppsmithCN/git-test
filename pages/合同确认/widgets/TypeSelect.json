@@ -1,0 +1,31 @@
+{
+    "boxShadow": "none",
+    "widgetName": "TypeSelect",
+    "isFilterable": false,
+    "topRow": 4,
+    "bottomRow": 8,
+    "parentRowSpace": 10,
+    "type": "DROP_DOWN_WIDGET",
+    "defaultOptionValue": "",
+    "selectionType": "SINGLE_SELECT",
+    "parentColumnSpace": 19.8125,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 5,
+    "dynamicBindingPathList": [
+        {"key": "options"},
+        {"key": "accentColor"}
+    ],
+    "options": "{{ProjectTypes.data.map(p => ({\n\tlabel: p.name,\n\tvalue: p.value\n}))}}",
+    "isDisabled": false,
+    "labelTextSize": "0.875rem",
+    "isRequired": false,
+    "rightColumn": 18,
+    "widgetId": "5mo72f3kcn",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "label": "",
+    "version": 1,
+    "parentId": "0",
+    "isLoading": false,
+    "borderRadius": "0px"
+}

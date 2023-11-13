@@ -1,0 +1,1 @@
+{{_.pick(editForm.formData, ['name', 'amount', 'startTime', 'endTime', 'content', 'manager', 'design', 'leader', 'maintainer', 'project_type'])}}

@@ -1,0 +1,103 @@
+{
+  "unpublishedPage": {
+    "name": "合同信息",
+    "slug": "",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1558,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 690,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 85,
+          "minHeight": 850,
+          "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "合同信息_ComfirmStates",
+              "name": "ComfirmStates",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "合同信息_ProjectTypes",
+              "name": "ProjectTypes",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "合同信息_ContractCount",
+              "name": "ContractCount",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "(Table1.pageNo - 1) * Table1.pageSize",
+                "EndDate.formattedDate || \"2099-01-01\"",
+                "OppositeInput.text",
+                "ProjectInput.text",
+                "StartDate.formattedDate || \"1900-01-01\"",
+                "StateSelect.selectedOptionValue",
+                "StateSelect.selectedOptionValue ? 'confirm_state_eq' : ''",
+                "Table1.pageSize",
+                "TypeSelect.selectedOptionValue",
+                "TypeSelect.selectedOptionValue ? 'project_type_eq' : ''"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "合同信息_Contracts",
+              "name": "Contracts",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "(Table1.pageNo - 1) * Table1.pageSize",
+                "EndDate.formattedDate || \"2099-01-01\"",
+                "OppositeInput.text",
+                "ProjectInput.text",
+                "StartDate.formattedDate || \"1900-01-01\"",
+                "StateSelect.selectedOptionValue",
+                "StateSelect.selectedOptionValue ? 'confirm_state_eq' : ''",
+                "Table1.pageSize",
+                "TypeSelect.selectedOptionValue",
+                "TypeSelect.selectedOptionValue ? 'project_type_eq' : ''"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "合同信息",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "6551de766fbfd93d5cd707f8_6551de766fbfd93d5cd70801"
+}

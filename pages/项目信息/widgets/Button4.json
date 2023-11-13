@@ -1,0 +1,31 @@
+{
+    "boxShadow": "none",
+    "widgetName": "Button4",
+    "onClick": "{{(() => {\n\tresetWidget(\"NameInput\",true);\n\tresetWidget(\"TypeSelect\",true);\n\tresetWidget(\"StartDate\",true);\n\tresetWidget(\"EndDate\",true);\n\tresetWidget(\"Table1\",true);\n})()}}",
+    "dynamicPropertyPathList": [{"key": "onClick"}],
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "topRow": 4,
+    "bottomRow": 8,
+    "parentRowSpace": 10,
+    "type": "BUTTON_WIDGET",
+    "parentColumnSpace": 19.8125,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
+    "leftColumn": 57,
+    "dynamicBindingPathList": [
+        {"key": "buttonColor"},
+        {"key": "borderRadius"}
+    ],
+    "text": "清空",
+    "isDisabled": false,
+    "labelTextSize": "0.875rem",
+    "rightColumn": 62,
+    "isDefaultClickDisabled": true,
+    "widgetId": "o53qg3s07c",
+    "isVisible": true,
+    "version": 1,
+    "recaptchaType": "V3",
+    "parentId": "0",
+    "isLoading": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "buttonVariant": "SECONDARY"
+}
