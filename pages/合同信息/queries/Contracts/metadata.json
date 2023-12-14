@@ -120,7 +120,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "autoComplete": true
   },
   "id": "合同信息_Contracts",
   "deleted": false,

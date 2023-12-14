@@ -53,7 +53,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "autoComplete": true
   },
   "id": "新增合同_CreateContract",
   "deleted": false,

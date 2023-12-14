@@ -60,7 +60,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "autoComplete": true
   },
   "id": "编辑合同_FindContract",
   "deleted": false,

@@ -54,7 +54,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "autoComplete": true
   },
   "id": "合同确认_ConfirmContract",
   "deleted": false,
